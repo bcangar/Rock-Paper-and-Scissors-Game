@@ -14,7 +14,6 @@ namespace rockPaperScissors
             do
             {
 
-
                 Random rand = new Random();
 
                 string[] degisken = { "r", "p", "s" };
