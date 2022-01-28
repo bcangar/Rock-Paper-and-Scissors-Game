@@ -13,7 +13,6 @@ namespace rockPaperScissors
             int playerScore = 0, computerScore = 0; //kullanici ve bilgisayar skorlari tanimlanarak,baslangic degerleri atanmistir.
             do
             {
-
                 Random rand = new Random();
 
                 string[] degisken = { "r", "p", "s" };
