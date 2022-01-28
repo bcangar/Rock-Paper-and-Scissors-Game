@@ -15,6 +15,8 @@
 ----
 
 ...cs
+
+
 switch (tercih)
                 {
                     case "r":
