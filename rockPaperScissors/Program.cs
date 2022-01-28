@@ -10,7 +10,7 @@ namespace rockPaperScissors
     {
         static void Main(string[] args)
         {
-            int playerScore = 0, computerScore = 0;
+            int playerScore = 0, computerScore = 0; //kullanici ve bilgisayar skorlari tanimlanarak,baslangic degerleri atanmistir.
             do
             {
 
