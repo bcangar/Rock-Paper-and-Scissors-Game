@@ -18,7 +18,6 @@ namespace rockPaperScissors
 
                 string[] degisken = { "r", "p", "s" };
 
-
             basla:
 
                 int pcTercih = rand.Next(0, 3); 
