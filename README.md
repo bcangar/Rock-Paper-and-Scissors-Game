@@ -44,7 +44,8 @@ switch (tercih)
 ----
 
 ## Iller-Ilceler
+
 -Ankara
- -Çankaya
+-Çankaya
  -Kızılay
  -Dİkmen
