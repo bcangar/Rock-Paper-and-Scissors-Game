@@ -15,8 +15,6 @@
 ----
 
 ...cs
-
-
 switch (tercih)
                 {
                     case "r":
@@ -42,7 +40,6 @@ switch (tercih)
 ...    
 
 ----
-
 ## Iller-Ilceler
 
 -Ankara
