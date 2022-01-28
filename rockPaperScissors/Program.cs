@@ -22,7 +22,7 @@ namespace rockPaperScissors
 
             basla:
 
-                int pcTercih = rand.Next(0, 3);
+                int pcTercih = rand.Next(0, 3); 
                 string pcTahmin = degisken[pcTercih];
                 Console.WriteLine("Rock icin r,paper icin p,scissors için ise s ye basınız.exit için e yada/exit basınız.");
                 string tercih = Console.ReadLine();
