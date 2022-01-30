@@ -15,13 +15,22 @@ namespace kullanicidanAlinanSayi
 
             do
             {
+                int sayi;
                 double sonuc;
 
+                giris:
 
-                Console.Write("Sayı:");
+                try
+                {
+                    Console.Write("Sayı:");
+                    sayi = Convert.ToInt32(Console.ReadLine()); 
+                }
+                catch (Exception)
+                {
 
-                int sayi = Convert.ToInt32(Console.ReadLine());
-
+                    Console.WriteLine("Harf girdiniz!Lutfen sayi girisi yapiniz!");
+                    goto giris;
+                }
 
             basla:
                 Console.Write("Tercihiniz:");
@@ -55,6 +64,10 @@ namespace kullanicidanAlinanSayi
                 }
 
                 Console.WriteLine(sonuc);
+
+                Console.WriteLine("Devam etmek için herhangi bir tuşa, çıkmak için ESC ye basınız.");
+
+
 
             } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
 
